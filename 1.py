@@ -1,7 +1,7 @@
 from selenium import webdriver # 从selenium导入webdriver
 import time
 import os
-
+# test
 BASE_PATH = os.path.abspath(os.path.dirname(__file__))
 
 wd = webdriver.Chrome(os.path.join(BASE_PATH, 'chromedriver.exe'))  # Optional argument, if not specified will search path.
